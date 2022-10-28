@@ -1,0 +1,83 @@
+:root{
+ --titleColors: #FFFFFF; 
+ --brancoPadrao: #f5f5f5; 
+ --verdePadrao:#005D43;
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    background: rgb(27,128,83);
+    background: linear-gradient(90deg, rgba(27,128,83,1) 0%, rgba(36,149,99,1) 35%, rgba(28,129,85,1) 74%);
+    overflow-x: hidden;
+}
+
+
+/** Bloco de códigos/estilizações do cabecalho **/ 
+
+header{
+    display: flex;
+    justify-content:space-around;
+    padding: 10px;
+    align-items: center;
+    border-bottom:  1px solid #ffffff62;
+}
+
+.img--logo{
+    width: 400px;
+    height: auto;
+}
+
+.menu--nav ul,li{
+    display: flex;
+    gap: 30px;
+   
+}
+
+
+.iconSocials{
+    font-size: 28px;
+    color: var(--titleColors);
+}
+
+/** Fim do bloco de códigos/estilizações do cabecalho **/ 
+
+
+/** Bloco de códigos/estilizações do letreiro **/ 
+
+.description{
+align-self: center;
+width: 100%;
+}
+
+.text--letreiro{
+    color: var(--titleColors);
+    text-shadow: 1px 1px 8px rgb(7, 131, 7);
+    font-size: 1em;
+}
+/** Fim do bloco de códigos/estilizações do letreiro **/ 
+
+
+/** Bloco de códigos/estilizações do Aside **/ 
+
+.box--news{
+    position: relative;
+}
+
+.btnAside{
+position: absolute;
+bottom: 10px;
+right: 0;
+margin-right: 12px;
+height: 30px;
+width: 140px;
+border: 1px solid var(--brancoPadrao);
+border-radius: 10px;
+background-color: var(--verdePadrao);
+}
+
+.btnAside a{
+    color: var(--brancoPadrao);
+}
+
+/** Bloco de códigos/estilizações do Aside **/ 

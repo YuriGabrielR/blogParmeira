@@ -1,0 +1,45 @@
+
+.container-grid{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: 61px 35px auto 10vw;  
+   height: 100%;
+   width: 100%;
+ 
+}
+
+header{
+    grid-column-start: span 3;
+    height: 60px;
+    
+}
+
+.description{
+    height: 10px;
+    width: 100%;
+    grid-column-start: span 3;
+}
+
+.aside{
+    grid-column-start: span 1;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.main{
+    height: 560px;
+    width: 100vh;
+    align-content: center;
+    grid-column-start: span 2;
+}
+
+.footer{
+    grid-column-start: span 3;
+  
+    
+}
